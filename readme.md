@@ -47,7 +47,7 @@ TODO: 待补充
 ## 扩展包使用情况
 
 | 扩展包 | 一句话描述 | 本项目应用场景 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | [orangehill/iseed](https://github.com/orangehill/iseed) | 将数据库数据导出为 Seed 文件 | 导出线上数据，方便于本地开发测试 |
 | [predis/predis](https://github.com/nrk/predis.git) | Redis 官方首推的 PHP 客户端开发包 | 缓存驱动 Redis 基础扩展包 |
 
