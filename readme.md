@@ -1,27 +1,64 @@
-## Laravel PHP Framework
+## 项目概述
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+* 产品名称：Laravel框架学习代码
+* 项目代码：laravel-study
+* 官方地址：https://laravel.com/
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+基于Laravel 5.1
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## 运行环境要求
 
-## Official Documentation
+- Nginx 1.8+
+- PHP 5.6+
+- Mysql 5.7+
+- Redis 3.0+
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## 开发环境部署/安装
 
-## Contributing
+本项目代码使用 PHP 框架 [Laravel 5.1](http://laravel-china.org/docs/5.1/) 开发，本地开发环境使用 [Docker](http://www.docker.com)。
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+### 基础安装
 
-## Security Vulnerabilities
+#### 1. 克隆源代码  
+TODO: 待补充
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+### 链接入口
 
-### License
+* 首页地址：http://
+* 管理后台：http://
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+管理员账号密码如下:
+
+```
+username: admin
+password: admin
+```
+
+至此, 安装完成 ^_^.
+
+## 服务器架构说明
+
+TODO: 待补充
+
+## 部署须知
+
+TODO: 待补充
+
+## 扩展包使用情况
+
+| 扩展包 | 一句话描述 | 本项目应用场景 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [orangehill/iseed](https://github.com/orangehill/iseed) | 将数据库数据导出为 Seed 文件 | 导出线上数据，方便于本地开发测试 |
+| [predis/predis](https://github.com/nrk/predis.git) | Redis 官方首推的 PHP 客户端开发包 | 缓存驱动 Redis 基础扩展包 |
+
+## 自定义 Artisan 命令
+
+| 命令行名字 | 说明 | Cron | 代码调用 |
+| --- | --- | --- | --- |
+无
+
+## 队列清单
+
+| 名称 | 说明 | 调用 |
+| --- | --- | --- |
+无
